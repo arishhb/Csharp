@@ -2,4 +2,8 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 
-
+Console.WriteLine("введите число");
+int number = Convert.ToInt32(Console.ReadLine());
+for (int i=2; i<=number; i+=2){
+    Console.WriteLine(i);
+}
